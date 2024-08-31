@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\bin\Debug\Assessment2A.exe.config
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\bin\Debug\Assessment2A.exe
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\bin\Debug\Assessment2A.pdb
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.frmDice.resources
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.exe
+C:\Users\creat\OneDrive\Documents\C# projects\Assessment2A\Assessment2A\obj\Debug\Assessment2A.pdb

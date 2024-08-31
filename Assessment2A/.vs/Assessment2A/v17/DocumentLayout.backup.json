@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\creat\\OneDrive\\Documents\\C# projects\\Assessment2A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55892165-4F96-43C5-B3DD-F48F67C162AD}|Assessment2A\\Assessment2A.csproj|c:\\users\\creat\\onedrive\\documents\\c# projects\\assessment2a\\assessment2a\\frmdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55892165-4F96-43C5-B3DD-F48F67C162AD}|Assessment2A\\Assessment2A.csproj|solutionrelative:assessment2a\\frmdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55892165-4F96-43C5-B3DD-F48F67C162AD}|Assessment2A\\Assessment2A.csproj|c:\\users\\creat\\onedrive\\documents\\c# projects\\assessment2a\\assessment2a\\frmdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55892165-4F96-43C5-B3DD-F48F67C162AD}|Assessment2A\\Assessment2A.csproj|solutionrelative:assessment2a\\frmdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmDice.cs",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# projects\\Assessment2A\\Assessment2A\\frmDice.cs",
+              "RelativeDocumentMoniker": "Assessment2A\\frmDice.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# projects\\Assessment2A\\Assessment2A\\frmDice.cs",
+              "RelativeToolTip": "Assessment2A\\frmDice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:58:11.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmDice.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# projects\\Assessment2A\\Assessment2A\\frmDice.cs",
+              "RelativeDocumentMoniker": "Assessment2A\\frmDice.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# projects\\Assessment2A\\Assessment2A\\frmDice.cs [Design]",
+              "RelativeToolTip": "Assessment2A\\frmDice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:40:15.376Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

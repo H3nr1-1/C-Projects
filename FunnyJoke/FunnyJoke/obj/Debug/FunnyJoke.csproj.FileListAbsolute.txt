@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\bin\Debug\FunnyJoke.exe.config
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\bin\Debug\FunnyJoke.exe
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\bin\Debug\FunnyJoke.pdb
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.frmFunnyJoke.resources
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.exe
+C:\Users\creat\OneDrive\Documents\C# projects\FunnyJoke\FunnyJoke\obj\Debug\FunnyJoke.pdb
