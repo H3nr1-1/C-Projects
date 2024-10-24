@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{132B3683-AF90-4802-96F9-1F9CB93AE56B}|Assessment3a\\Assessment3a.csproj|c:\\users\\creat\\onedrive\\documents\\c# projects\\assessment3a\\assessment3a\\assessment3a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{132B3683-AF90-4802-96F9-1F9CB93AE56B}|Assessment3a\\Assessment3a.csproj|solutionrelative:assessment3a\\assessment3a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{132B3683-AF90-4802-96F9-1F9CB93AE56B}|Assessment3a\\Assessment3a.csproj|C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\assessment3a\\assessment3a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{132B3683-AF90-4802-96F9-1F9CB93AE56B}|Assessment3a\\Assessment3a.csproj|solutionrelative:assessment3a\\assessment3a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assessment3a.cs",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\Assessment3a\\Assessment3a.cs",
+              "RelativeDocumentMoniker": "Assessment3a\\Assessment3a.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\Assessment3a\\Assessment3a.cs",
+              "RelativeToolTip": "Assessment3a\\Assessment3a.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:39:54.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assessment3a.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\Assessment3a\\Assessment3a.cs",
+              "RelativeDocumentMoniker": "Assessment3a\\Assessment3a.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment3a\\Assessment3a\\Assessment3a.cs [Design]",
+              "RelativeToolTip": "Assessment3a\\Assessment3a.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:31:10.318Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

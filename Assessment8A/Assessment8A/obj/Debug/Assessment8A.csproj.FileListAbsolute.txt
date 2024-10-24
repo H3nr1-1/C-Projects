@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\bin\Debug\Assessment8A.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\bin\Debug\Assessment8A.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\bin\Debug\Assessment8A.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.JoeAutomotive.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment8A\Assessment8A\obj\Debug\Assessment8A.pdb

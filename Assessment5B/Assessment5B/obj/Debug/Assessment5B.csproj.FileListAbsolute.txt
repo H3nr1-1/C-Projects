@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\bin\Debug\Assessment5B.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\bin\Debug\Assessment5B.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\bin\Debug\Assessment5B.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.Assessment5B.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment5B\Assessment5B\obj\Debug\Assessment5B.pdb

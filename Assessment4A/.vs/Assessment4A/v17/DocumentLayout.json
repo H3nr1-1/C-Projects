@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF098F8B-FEB8-4419-855E-F6DFC638A8AD}|Assessment4A\\Assessment4A.csproj|c:\\users\\creat\\onedrive\\documents\\c# projects\\assessment4a\\assessment4a\\assessment4a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF098F8B-FEB8-4419-855E-F6DFC638A8AD}|Assessment4A\\Assessment4A.csproj|solutionrelative:assessment4a\\assessment4a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF098F8B-FEB8-4419-855E-F6DFC638A8AD}|Assessment4A\\Assessment4A.csproj|C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\assessment4a\\assessment4a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF098F8B-FEB8-4419-855E-F6DFC638A8AD}|Assessment4A\\Assessment4A.csproj|solutionrelative:assessment4a\\assessment4a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assessment4A.cs",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\Assessment4A\\Assessment4A.cs",
+              "RelativeDocumentMoniker": "Assessment4A\\Assessment4A.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\Assessment4A\\Assessment4A.cs",
+              "RelativeToolTip": "Assessment4A\\Assessment4A.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwHAAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:12:21.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assessment4A.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\Assessment4A\\Assessment4A.cs",
+              "RelativeDocumentMoniker": "Assessment4A\\Assessment4A.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\Assessment4A\\Assessment4A\\Assessment4A.cs [Design]",
+              "RelativeToolTip": "Assessment4A\\Assessment4A.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:09:01.447Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

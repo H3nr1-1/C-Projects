@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\bin\Debug\Assessment6A.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\bin\Debug\Assessment6A.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\bin\Debug\Assessment6A.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.Assessment6A.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6A\Assessment6A\obj\Debug\Assessment6A.pdb

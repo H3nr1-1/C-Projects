@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.Assessment6B.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\bin\Debug\Assessment6B.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\bin\Debug\Assessment6B.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\bin\Debug\Assessment6B.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment6B\Assessment6B\obj\Debug\Assessment6B.pdb
