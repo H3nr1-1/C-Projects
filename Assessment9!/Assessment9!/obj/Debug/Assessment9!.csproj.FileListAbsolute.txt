@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\bin\Debug\Assessment9!.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\bin\Debug\Assessment9!.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\bin\Debug\Assessment9!.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9!.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9_.Assessment9.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9_.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9!.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9!.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9!.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment9!\Assessment9!\obj\Debug\Assessment9!.pdb

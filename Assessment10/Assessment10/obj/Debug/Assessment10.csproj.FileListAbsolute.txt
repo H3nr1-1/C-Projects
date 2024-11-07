@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\bin\Debug\Assessment10.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\bin\Debug\Assessment10.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\bin\Debug\Assessment10.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.Assessment10.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment10\Assessment10\obj\Debug\Assessment10.pdb
