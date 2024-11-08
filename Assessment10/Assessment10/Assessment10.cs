@@ -40,13 +40,7 @@ namespace Assessment10
             // get the known value from the picked animal
             double normalValue = GetNormalValue(animalName);
 
-            // if the animal name is not found in known values, display a message and exit.
-            if (normalValue == -1)
-            {
-                MessageBox.Show($"No normal value found for {animalName}.");
-                return;
-            }
-            
+
             //list to split test scores that are higher, lower, or equal to the normal value.
             List<double> higherValues = new List<double>();
             List<double> lowerValues = new List<double>();
@@ -171,6 +165,7 @@ namespace Assessment10
                         else
                         {
                             MessageBox.Show("Invalid data.");
+                            return;
                         }
                     }
 
@@ -178,11 +173,6 @@ namespace Assessment10
                     AnalyzeData(animalName, testScores);
 
                 }
-            }
-
-            catch (FileNotFoundException)
-            {
-                MessageBox.Show("The selected file was not found.  Please try again.");
             }
 
             catch (Exception)
