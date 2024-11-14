@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\bin\Debug\Assessment11.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\bin\Debug\Assessment11.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\bin\Debug\Assessment11.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.Assessment11.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\Assessment11\Assessment11\obj\Debug\Assessment11.pdb
