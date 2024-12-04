@@ -39,6 +39,8 @@
             this.lblHigherCount = new System.Windows.Forms.Label();
             this.lblLowerCount = new System.Windows.Forms.Label();
             this.lblEqualCount = new System.Windows.Forms.Label();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.btnLoadComparisonFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -83,7 +85,7 @@
             // 
             // btnLoadFile
             // 
-            this.btnLoadFile.Location = new System.Drawing.Point(226, 96);
+            this.btnLoadFile.Location = new System.Drawing.Point(226, 47);
             this.btnLoadFile.Name = "btnLoadFile";
             this.btnLoadFile.Size = new System.Drawing.Size(100, 40);
             this.btnLoadFile.TabIndex = 0;
@@ -138,11 +140,26 @@
             this.lblEqualCount.TabIndex = 99;
             this.lblEqualCount.Text = " Equal Count: 0";
             // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
+            // 
+            // btnLoadComparisonFile
+            // 
+            this.btnLoadComparisonFile.Location = new System.Drawing.Point(226, 93);
+            this.btnLoadComparisonFile.Name = "btnLoadComparisonFile";
+            this.btnLoadComparisonFile.Size = new System.Drawing.Size(100, 60);
+            this.btnLoadComparisonFile.TabIndex = 100;
+            this.btnLoadComparisonFile.Text = "Load New File";
+            this.btnLoadComparisonFile.UseVisualStyleBackColor = true;
+            this.btnLoadComparisonFile.Click += new System.EventHandler(this.btnLoadComparisonFile_Click);
+            // 
             // Assessment10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(542, 603);
+            this.Controls.Add(this.btnLoadComparisonFile);
             this.Controls.Add(this.lblEqualCount);
             this.Controls.Add(this.lblLowerCount);
             this.Controls.Add(this.lblHigherCount);
@@ -175,6 +192,8 @@
         private System.Windows.Forms.Label lblHigherCount;
         private System.Windows.Forms.Label lblLowerCount;
         private System.Windows.Forms.Label lblEqualCount;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
+        private System.Windows.Forms.Button btnLoadComparisonFile;
     }
 }
 

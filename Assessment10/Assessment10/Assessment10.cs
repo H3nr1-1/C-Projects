@@ -13,25 +13,56 @@ namespace Assessment10
 {
     public partial class Assessment10 : Form
     {
-
-        // hard coding the known results into a 2 dimensional array
-        private static readonly string[,] knownValues =
-        {
-            {"Zebra", "129.5"},
-            {"Unicorn", "54.9"},
-            {"Platypus", "12.19"},
-            {"Dragon", "999.98"},
-            {"Manticore", "0.035"},
-            {"Duck", "1.34"},
-            {"Basilisk", "45.2"},
-            {"Sphinx", "8.00"},
-            {"Tiger", "3.21"},
-        };
+        
+        // creating a dictionary to store the known values
+        private Dictionary<string, double> knownValues = new Dictionary<string, double>();
 
 
         public Assessment10()
         {
             InitializeComponent();
+            //automatically load the knownFiles.txt file
+            LoadKnownValues("knownvalues.txt");
+        }
+
+        // making a method to show load the knownValues file
+        private void LoadKnownValues(string filePath)
+        {
+            try
+            {
+                //make sure the file is there before trying to load it.
+                if (!File.Exists(filePath))
+                {
+                    MessageBox.Show($"File not found: {filePath}");
+                    return;
+                }
+
+                knownValues.Clear();
+
+                // skip the first line in knownvalues.txt and then read all lines after
+                var lines = File.ReadAllLines(filePath).Skip(1);
+
+                foreach (string line in lines)
+                {
+                    // tokenize the line using the comma delimiter
+                    var tokens = line.Split(',');
+
+                    if (tokens.Length == 2 && double.TryParse(tokens[1], out double normalValue))
+                    {
+                        string animalName = tokens[0].Trim();
+                        //add to the dictionary
+                        knownValues[animalName] = normalValue;
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Invalid data in line: {line}");
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show($"Error loading file.");
+            }
         }
 
         // create a method to compare the values from the selected files to the known values.
@@ -39,6 +70,12 @@ namespace Assessment10
         {
             // get the known value from the picked animal
             double normalValue = GetNormalValue(animalName);
+
+            if (normalValue == -1)
+            {
+                MessageBox.Show("Animal not found in known values.");
+                return;
+            }
 
 
             //list to split test scores that are higher, lower, or equal to the normal value.
@@ -59,18 +96,10 @@ namespace Assessment10
             DisplayResults(higherValues, lowerValues, equalCount);
         }
 
-        // Get the value for the chosen animal
+        // updating the method to get normal value for animal that was chosen.
         private double GetNormalValue(string animalName)
         {
-            // go through each row of the known values array
-            for (int i = 0; i < knownValues.GetLength(0); i++)
-            {
-                if (knownValues[i, 0] == animalName)
-                {
-                    return double.Parse(knownValues[i, 1]);
-                }
-            }
-            return -1;
+            return knownValues.TryGetValue(animalName, out double normalValue) ? normalValue : -1;
         }
 
         // show results in listboxes and labels for high, low, and equal
@@ -178,6 +207,77 @@ namespace Assessment10
             catch (Exception)
             {
                 MessageBox.Show("An error occured.  Please try again.");
+            }
+        }
+
+        private void btnLoadComparisonFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Filter = "Text Files (*.txt|*.txt",
+                Title = "Select a File to Compare."
+            };
+
+            try
+            {
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // get the file path
+                    string filePath = openFileDialog.FileName;
+
+                    //clear the current known values dictionary
+                    knownValues.Clear();
+
+                    //read all lines from the selected file
+                    string[] lines = File.ReadAllLines(filePath);
+
+                    // make sure file isnt empty
+                    if (lines.Length == 0)
+                    {
+                        MessageBox.Show("The selected file is empty.");
+                        return;
+                    }
+
+                    // make sure the file isnt empty and start with the second line
+                    for (int i = 1; i < lines.Length; i++)
+                    {
+                        string line = lines[i].Trim();
+
+                        if (string.IsNullOrWhiteSpace(line))
+                        {
+                            continue;
+                        }
+
+                        //seperate lines using into 1 column
+                        string[] parts = line.Split(',');
+
+                        if (parts.Length != 1)
+                        {
+                            MessageBox.Show($"Invalid line format.");
+                            continue;
+                        }
+
+                        // seperate the animal names and values
+                        string valueNumber = parts[0].Trim();
+
+                        //change the value to a number
+                        if (double.TryParse(valueNumber, out double normalValue))
+                        {
+                            // add the animal and value to dictionary
+                            knownValues[valueNumber] = normalValue;
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Invalid value for animal.");
+                            return;
+                        }
+                    }
+                    MessageBox.Show("File loaded successfully.");
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show($"Error loading file.");
             }
         }
     }
