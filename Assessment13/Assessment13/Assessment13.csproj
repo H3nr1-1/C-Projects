@@ -52,6 +52,7 @@
     <Compile Include="Assessment13.Designer.cs">
       <DependentUpon>Assessment13.cs</DependentUpon>
     </Compile>
+    <Compile Include="SpaceExperiment.cs" />
     <Compile Include="Experiment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -36,6 +36,9 @@
             this.lblResultVolume = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.lbDescription = new System.Windows.Forms.ListBox();
+            this.btnOpenThePodBayDoors = new System.Windows.Forms.Button();
+            this.lblGravity = new System.Windows.Forms.Label();
+            this.lblVelocity = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblStudentName
@@ -94,7 +97,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(224, 481);
+            this.btnExit.Location = new System.Drawing.Point(224, 522);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 0;
@@ -111,11 +114,42 @@
             this.lbDescription.Size = new System.Drawing.Size(326, 196);
             this.lbDescription.TabIndex = 99;
             // 
+            // btnOpenThePodBayDoors
+            // 
+            this.btnOpenThePodBayDoors.Location = new System.Drawing.Point(184, 551);
+            this.btnOpenThePodBayDoors.Name = "btnOpenThePodBayDoors";
+            this.btnOpenThePodBayDoors.Size = new System.Drawing.Size(150, 40);
+            this.btnOpenThePodBayDoors.TabIndex = 100;
+            this.btnOpenThePodBayDoors.Text = "Open The Pod Bay Doors";
+            this.btnOpenThePodBayDoors.UseVisualStyleBackColor = true;
+            this.btnOpenThePodBayDoors.Click += new System.EventHandler(this.btnOpenThePodBayDoors_Click);
+            // 
+            // lblGravity
+            // 
+            this.lblGravity.AutoSize = true;
+            this.lblGravity.Location = new System.Drawing.Point(43, 444);
+            this.lblGravity.Name = "lblGravity";
+            this.lblGravity.Size = new System.Drawing.Size(52, 16);
+            this.lblGravity.TabIndex = 99;
+            this.lblGravity.Text = "Gravity:";
+            // 
+            // lblVelocity
+            // 
+            this.lblVelocity.AutoSize = true;
+            this.lblVelocity.Location = new System.Drawing.Point(43, 474);
+            this.lblVelocity.Name = "lblVelocity";
+            this.lblVelocity.Size = new System.Drawing.Size(58, 16);
+            this.lblVelocity.TabIndex = 99;
+            this.lblVelocity.Text = "Velocity:";
+            // 
             // ReviewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 603);
+            this.Controls.Add(this.lblVelocity);
+            this.Controls.Add(this.lblGravity);
+            this.Controls.Add(this.btnOpenThePodBayDoors);
             this.Controls.Add(this.lbDescription);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblResultVolume);
@@ -143,5 +177,8 @@
         private System.Windows.Forms.Label lblResultVolume;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.ListBox lbDescription;
+        private System.Windows.Forms.Button btnOpenThePodBayDoors;
+        private System.Windows.Forms.Label lblGravity;
+        private System.Windows.Forms.Label lblVelocity;
     }
 }

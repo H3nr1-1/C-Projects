@@ -14,11 +14,11 @@ namespace Assessment13
     public partial class Assessment13 : Form
     {
 
-        // creating an array to store up to 50 experiments
-        private Experiment[] experiments = new Experiment[50];
+        // created a list for data storage
+        private List<Experiment> experiments = new List<Experiment>();
 
         //hold the current experiment
-        private Experiment exp;
+        private SpaceExperiment exp;
 
         public Assessment13()
         {
@@ -38,17 +38,17 @@ namespace Assessment13
             // create the experiment with the input that was entered
             if (!string.IsNullOrEmpty(txtStudentName.Text))
                 // experitment using the student name
-                exp = new Experiment(txtStudentName.Text);
+                exp = new SpaceExperiment(txtStudentName.Text);
             else if (!string.IsNullOrEmpty(txtExperimentNumber.Text) && !string.IsNullOrEmpty(txtDescription.Text))
             {
                 // parsing the experiment number
                 int expNumber = int.Parse(txtExperimentNumber.Text);
                 //experiment using the experiment number and description
-                exp = new Experiment(expNumber, txtDescription.Text);
+                exp = new SpaceExperiment(expNumber, txtDescription.Text);
             }
             else
                 // create the default experiment
-                exp = new Experiment();
+                exp = new SpaceExperiment();
 
             MessageBox.Show("Experiment created.  Add more data if needed.");
         }
@@ -79,6 +79,12 @@ namespace Assessment13
 
                 if (!string.IsNullOrEmpty(txtResultVolume.Text))
                     exp.ResultVolume = double.Parse(txtResultVolume.Text);
+                
+                if (!string.IsNullOrEmpty(txtGravity.Text))
+                    exp.Gravity = double.Parse(txtGravity.Text);
+
+                if (!string.IsNullOrEmpty(txtVelocity.Text))
+                    exp.Velocity = double.Parse(txtVelocity.Text);
 
                 MessageBox.Show("Eperiment data set successfully.");
             }
@@ -100,16 +106,17 @@ namespace Assessment13
             }
 
             // check if the experiment already exists
-            if (experiments[exp.ExperimentNumber -1] != null)
+            if (experiments.Exists(exe => exe.ExperimentNumber == exp.ExperimentNumber))
             {
-                var result = MessageBox.Show("Experiment exists already.  Would you likie to overwrite?", "Confirm", MessageBoxButtons.YesNo);
+                var result = MessageBox.Show("Experiment exists already.  Would you like to overwrite?", "Confirm", MessageBoxButtons.YesNo);
                 if (result == DialogResult.No)
                     //exit if the user does not want to overwrite.
                     return;
+
             }
 
-            // save experiment to the array
-            experiments[exp.ExperimentNumber - 1] = exp;
+            //add the experiment to the list
+            experiments.Add(exp);
             // add the experiment info to the listbox
             lbExperiments.Items.Add($"{exp.ExperimentNumber}\t{exp.Description}");
             //Notify the user that the experiment is saved.
@@ -124,7 +131,8 @@ namespace Assessment13
             txtDescription.Clear();
             txtResultWeight.Clear();
             txtResultVolume.Clear();
-            cmbResultColor.SelectedIndex = -1;
+            txtGravity.Clear();
+            txtVelocity.Clear();
             txtStudentName.Focus();
         }
 
@@ -142,15 +150,16 @@ namespace Assessment13
 
             // get experiment number from selected experiment.
             int expNumber = int.Parse(lbExperiments.SelectedItem.ToString().Split('\t')[0]);
+            var selectedExperiment = experiments.Find(exe => exe.ExperimentNumber == expNumber);
             //make sure the data is there
-            if (experiments[expNumber - 1] == null)
+            if (selectedExperiment == null)
             {
                 MessageBox.Show("The selected experiment does not exitst.");
                 return;
             }
 
             //open the review form and display the selected experiment.
-            var reviewFrom = new ReviewForm(experiments[expNumber - 1]);
+            var reviewFrom = new ReviewForm(selectedExperiment);
             reviewFrom.ShowDialog();
         }
     }

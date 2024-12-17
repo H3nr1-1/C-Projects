@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\bin\Debug\ParkingTicketSimulatro.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\bin\Debug\ParkingTicketSimulatro.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\bin\Debug\ParkingTicketSimulatro.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.ParkingTicketSimulator.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\ParkingTicketSimulatro\ParkingTicketSimulatro\obj\Debug\ParkingTicketSimulatro.pdb

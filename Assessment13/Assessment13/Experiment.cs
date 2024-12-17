@@ -16,7 +16,7 @@ namespace Assessment13
 
 
     // class to hold the experiment data
-    public class Experiment
+    public abstract class Experiment
     {
         //experiment properties
         private string _studentName;
@@ -77,20 +77,20 @@ namespace Assessment13
 
 
         // property for result volume
-        public double ResultVolume
+        public virtual double ResultVolume
         {
             get => _resultVolume;
             set => _resultVolume = value;
         }
 
-        //starting constructor
-        public Experiment() { }
+        // abstract classes 
+        protected Experiment() { }
 
         // constructor to initialize with student name
-        public Experiment(string studentName) => StudentName = studentName;
+        protected Experiment(string studentName) => StudentName = studentName;
 
         // constructor to initialize with experiment number and description
-        public Experiment(int experimentNumber, string description)
+        protected Experiment(int experimentNumber, string description)
         {
             ExperimentNumber = experimentNumber;
             Description = description;

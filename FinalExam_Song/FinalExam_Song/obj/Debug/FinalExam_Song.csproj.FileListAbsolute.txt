@@ -1,0 +1,9 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\bin\Debug\FinalExam_Song.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\bin\Debug\FinalExam_Song.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\bin\Debug\FinalExam_Song.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Song\FinalExam_Song\obj\Debug\FinalExam_Song.pdb

@@ -46,6 +46,10 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.lbExperiments = new System.Windows.Forms.ListBox();
+            this.lblGravity = new System.Windows.Forms.Label();
+            this.lblVelocity = new System.Windows.Forms.Label();
+            this.txtGravity = new System.Windows.Forms.TextBox();
+            this.txtVelocity = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblStudentName
@@ -148,7 +152,7 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(50, 309);
+            this.btnCreate.Location = new System.Drawing.Point(50, 371);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 23);
             this.btnCreate.TabIndex = 6;
@@ -158,7 +162,7 @@
             // 
             // btnSet
             // 
-            this.btnSet.Location = new System.Drawing.Point(138, 309);
+            this.btnSet.Location = new System.Drawing.Point(138, 371);
             this.btnSet.Name = "btnSet";
             this.btnSet.Size = new System.Drawing.Size(75, 23);
             this.btnSet.TabIndex = 7;
@@ -168,7 +172,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(226, 309);
+            this.btnSave.Location = new System.Drawing.Point(226, 371);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 8;
@@ -178,7 +182,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(314, 309);
+            this.btnClear.Location = new System.Drawing.Point(314, 371);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 9;
@@ -188,7 +192,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(402, 309);
+            this.btnExit.Location = new System.Drawing.Point(402, 371);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 10;
@@ -200,17 +204,53 @@
             // 
             this.lbExperiments.FormattingEnabled = true;
             this.lbExperiments.ItemHeight = 16;
-            this.lbExperiments.Location = new System.Drawing.Point(50, 357);
+            this.lbExperiments.Location = new System.Drawing.Point(50, 411);
             this.lbExperiments.Name = "lbExperiments";
             this.lbExperiments.Size = new System.Drawing.Size(430, 180);
             this.lbExperiments.TabIndex = 12;
             this.lbExperiments.DoubleClick += new System.EventHandler(this.lbExperiments_DoubleClick);
+            // 
+            // lblGravity
+            // 
+            this.lblGravity.AutoSize = true;
+            this.lblGravity.Location = new System.Drawing.Point(50, 297);
+            this.lblGravity.Name = "lblGravity";
+            this.lblGravity.Size = new System.Drawing.Size(52, 16);
+            this.lblGravity.TabIndex = 99;
+            this.lblGravity.Text = "Gravity:";
+            // 
+            // lblVelocity
+            // 
+            this.lblVelocity.AutoSize = true;
+            this.lblVelocity.Location = new System.Drawing.Point(50, 330);
+            this.lblVelocity.Name = "lblVelocity";
+            this.lblVelocity.Size = new System.Drawing.Size(58, 16);
+            this.lblVelocity.TabIndex = 99;
+            this.lblVelocity.Text = "Velocity:";
+            // 
+            // txtGravity
+            // 
+            this.txtGravity.Location = new System.Drawing.Point(204, 290);
+            this.txtGravity.Name = "txtGravity";
+            this.txtGravity.Size = new System.Drawing.Size(276, 22);
+            this.txtGravity.TabIndex = 6;
+            // 
+            // txtVelocity
+            // 
+            this.txtVelocity.Location = new System.Drawing.Point(204, 323);
+            this.txtVelocity.Name = "txtVelocity";
+            this.txtVelocity.Size = new System.Drawing.Size(276, 22);
+            this.txtVelocity.TabIndex = 7;
             // 
             // Assessment13
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 603);
+            this.Controls.Add(this.txtVelocity);
+            this.Controls.Add(this.txtGravity);
+            this.Controls.Add(this.lblVelocity);
+            this.Controls.Add(this.lblGravity);
             this.Controls.Add(this.lbExperiments);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
@@ -258,6 +298,10 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.ListBox lbExperiments;
+        private System.Windows.Forms.Label lblGravity;
+        private System.Windows.Forms.Label lblVelocity;
+        private System.Windows.Forms.TextBox txtGravity;
+        private System.Windows.Forms.TextBox txtVelocity;
     }
 }
 
