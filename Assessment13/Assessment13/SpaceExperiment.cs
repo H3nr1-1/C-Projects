@@ -12,13 +12,15 @@ namespace Assessment13
         private double _gravity;
         private double _velocity;
 
-
+        //property for gravity
         public double Gravity
         {
             get => _gravity; 
             set => _gravity = value;
         }
 
+
+        //property for velocity
         public double Velocity
         {
             get => _velocity;
@@ -40,9 +42,11 @@ namespace Assessment13
 
         public SpaceExperiment(int experimentNumber, string description) : base(experimentNumber, description) { }
 
+
+        // method to display the message
         public void OpenThePodBayDoors()
         {
-            System.Windows.Forms.MessageBox.Show("I am sorry Dave, I can't do that.");
+            MessageBox.Show("I am sorry Dave, I can't do that.");
         }
     }
 }

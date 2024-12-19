@@ -155,7 +155,7 @@
             this.btnCreate.Location = new System.Drawing.Point(50, 371);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 23);
-            this.btnCreate.TabIndex = 6;
+            this.btnCreate.TabIndex = 8;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
@@ -165,7 +165,7 @@
             this.btnSet.Location = new System.Drawing.Point(138, 371);
             this.btnSet.Name = "btnSet";
             this.btnSet.Size = new System.Drawing.Size(75, 23);
-            this.btnSet.TabIndex = 7;
+            this.btnSet.TabIndex = 9;
             this.btnSet.Text = "Set";
             this.btnSet.UseVisualStyleBackColor = true;
             this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
@@ -175,7 +175,7 @@
             this.btnSave.Location = new System.Drawing.Point(226, 371);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 8;
+            this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -185,7 +185,7 @@
             this.btnClear.Location = new System.Drawing.Point(314, 371);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 9;
+            this.btnClear.TabIndex = 11;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -195,7 +195,7 @@
             this.btnExit.Location = new System.Drawing.Point(402, 371);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 10;
+            this.btnExit.TabIndex = 12;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -207,7 +207,7 @@
             this.lbExperiments.Location = new System.Drawing.Point(50, 411);
             this.lbExperiments.Name = "lbExperiments";
             this.lbExperiments.Size = new System.Drawing.Size(430, 180);
-            this.lbExperiments.TabIndex = 12;
+            this.lbExperiments.TabIndex = 13;
             this.lbExperiments.DoubleClick += new System.EventHandler(this.lbExperiments_DoubleClick);
             // 
             // lblGravity

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172D40FA-1C59-4A63-8085-EF68BFC55152}|FinalExam_Music\\FinalExam_Music.csproj|c:\\users\\creat\\onedrive\\documents\\c# projects\\finalexam_music\\finalexam_music\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172D40FA-1C59-4A63-8085-EF68BFC55152}|FinalExam_Music\\FinalExam_Music.csproj|solutionrelative:finalexam_music\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172D40FA-1C59-4A63-8085-EF68BFC55152}|FinalExam_Music\\FinalExam_Music.csproj|C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\finalexam_music\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{172D40FA-1C59-4A63-8085-EF68BFC55152}|FinalExam_Music\\FinalExam_Music.csproj|solutionrelative:finalexam_music\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\FinalExam_Music\\Music.cs",
+              "RelativeDocumentMoniker": "FinalExam_Music\\Music.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\FinalExam_Music\\Music.cs",
+              "RelativeToolTip": "FinalExam_Music\\Music.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:08:30.883Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Music.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\FinalExam_Music\\Music.cs",
+              "RelativeDocumentMoniker": "FinalExam_Music\\Music.cs",
+              "ToolTip": "C:\\Users\\creat\\OneDrive\\Documents\\C# Projects\\FinalExam_Music\\FinalExam_Music\\Music.cs [Design]",
+              "RelativeToolTip": "FinalExam_Music\\Music.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:00:55.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

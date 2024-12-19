@@ -1,0 +1,10 @@
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\bin\Debug\FinalExam_Instraments.exe.config
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\bin\Debug\FinalExam_Instraments.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\bin\Debug\FinalExam_Instraments.pdb
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.csproj.AssemblyReference.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.Intraments.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.Properties.Resources.resources
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.csproj.GenerateResource.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.csproj.CoreCompileInputs.cache
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.exe
+C:\Users\creat\OneDrive\Documents\C# Projects\FinalExam_Instraments\FinalExam_Instraments\obj\Debug\FinalExam_Instraments.pdb
